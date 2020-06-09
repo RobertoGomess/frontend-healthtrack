@@ -1,0 +1,43 @@
+.left-to-right-animate {
+    animation: left-to-right-animate .5s;
+    position: absolute;
+}
+
+.fade-in-animate {
+    animation: fade-in-animate 1s;
+}
+
+.top-to-botton-animate {
+    animation: top-to-botton-animate 1s;
+}
+
+@keyframes left-to-right-animate {
+    from {
+        position: absolute;
+        left: -1500px;
+    }
+    to {
+        position: absolute;
+        left: 0px;
+    }
+}
+
+@keyframes top-to-botton-animate {
+    from {
+        position: absolute;
+        top: -1500px;
+    }
+    to {
+        position: absolute;
+        top: 0px;
+    }
+}
+
+@keyframes fade-in-animate {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,57 @@
+body,
+html {
+    width: 100vw;
+    height: 100%;
+}
+
+#container-login {
+    width: 100%;
+    height: 100;
+    overflow-x: auto;
+}
+
+.container-login {
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(45.35deg, #00E676 1.87%, rgba(0, 230, 118, 0.55) 98.83%);
+}
+
+.logo {
+    display: block;
+    height: 64px;
+    background-image: url("../images/corredor.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.login-banner {
+    width: 100%;
+    background-image: url("../images/corredor.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 767px) {
+    .container-login {
+        position: absolute;
+        padding: 0px;
+        background: linear-gradient(45.35deg, #00E676 1.87%, rgba(0, 230, 118, 0.55) 98.83%);
+    }
+    .login-banner {
+        background-image: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .filds.col-6 {
+        padding: 0px;
+    }
+    .form-check-label,
+    .filds a {
+        font-size: 12px;
+    }
+}

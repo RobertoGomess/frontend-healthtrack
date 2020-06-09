@@ -1,0 +1,25 @@
+body,
+html {
+    height: 100%;
+}
+
+#container-register {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(45.35deg, #00E676 1.87%, rgba(0, 230, 118, 0.55) 98.83%);
+}
+
+#container-register h5 {
+    color: #003D00;
+}
+
+.logo {
+    display: block;
+    height: 64px;
+    background-image: url("../images/corredor.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
