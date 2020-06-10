@@ -1,0 +1,36 @@
+.icon-list{
+    background-color: #fff;
+    border-radius: 32px;
+}
+.icon-running {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 0px;
+    background-image: url("../../images/btn-icon-corredor.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 54px;
+}
+
+.icon-weight {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 0px;
+    background-image: url("../../images/btn-icon-peso.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+.icon-meal {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 0px;
+    background-image: url("../../images/btn-icon-refeicao.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 54px;
+}
