@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/commom/animation.css">
     <script src="../js/jquery/jquery.js"></script>
     <script src="../js/bootstrap/bootstrap.js"></script>
-    <title>Corrida</title>
+    <title>Exercício</title>
 </head>
 
 <body>
@@ -21,15 +21,17 @@
                     <span class="navbar-toggler-icon"></span>
                 </a>
                 <div class="d-flex justify-content-center mx-auto container-menu-message">
-                    <h5>Corrida</h5>
+                    <h5>Exercício</h5>
                 </div>
             </nav>
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark">
                     <ul class="menu-option p-0">
-                        <li><a href="running.html">Corrida</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="exercise.html">Exercício</a></li>
                         <li><a href="meal.html">Refeição</a></li>
                         <li><a href="weight.html">Peso</a></li>
+                        <li><a href="plan.html">Plano</a></li>
                         <li><a href="login.html">Sair</a></li>
                     </ul>
                 </div>
@@ -41,42 +43,44 @@
                 <section class="container-form form-green col-10 col-md-6 mb-2">
                     <div class="form-group">
                         <div class="col-12">
-                            <h5 class="text-center">Registrar corrida</h5>
+                            <h5 class="text-center">Registrar Exercício</h5>
                         </div>
                         <div class="col-12">
-                            <h6 class="text-center">Informe o tempo e a distância percorrida</h6>
+                            <h6 class="text-center">Preencha os campos abaixo 😉</h6>
                         </div>
                     </div>
-                    <form action="running-list.html" method="GET">
+                    <form action="exercise-list.html" method="GET">
                         <div class="form-group form-group-custom col-lg-10 offset-lg-1">
                             <div class="row filds-custom justify-content-center align-items-center">
                                 <div class="col-8">
-                                    <label for="minutes">Meu tempo foi</label>
+                                    <label for="duracao">Meu tempo foi: <br/> <strong>(Em minutos)</strong></label>
                                 </div>
                                 <div class="col-4 col-md-2">
                                     <div class="row">
                                         <a href="#" class="btn-control btn-more" href=""> </a>
                                     </div>
                                     <div class="row">
-                                        <input type="text" id="minutes" name="minutes" value="0" class="field">
+                                        <input type="text" id="duracao" name="duracao" value="0" class="field">
                                     </div>
                                     <div class="row">
                                         <a href="#" class="btn-control btn-less" href=""> </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="form-group form-group-custom col-lg-10 offset-lg-1">
+
+                            <div class="form-group form-group-custom col-lg-10 offset-lg-1">
+                            </div>
+
                             <div class="row filds-custom justify-content-center align-items-center">
                                 <div class="col-8">
-                                    <label for="distance">Distância percorrida</label>
+                                    <label for="caloriasGastas">Calorias gastas </label>
                                 </div>
                                 <div class="col-4 col-md-2">
                                     <div class="row">
                                         <a href="#" class="btn-control btn-more"> </a>
                                     </div>
                                     <div class="row">
-                                        <input type="text" id="distance" name="distance" value="0" class="field">
+                                        <input type="text" id="caloriasGastas" name="caloriasGastas" value="0" class="field">
                                     </div>
                                     <div class="row">
                                         <a href="#" class="btn-control btn-less"> </a>
@@ -84,6 +88,26 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="form-group form-group-custom col-lg-10 offset-lg-1">
+                            <div class="row filds-custom justify-content-center align-items-center">
+                                <div class="col-10">
+                                    <div class="filds">
+                                        <input type="text" id="esforco" name="esforco">
+                                        <label for="esforco">Esforço</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row filds-custom justify-content-center align-items-center">
+                                <div class="col-10">
+                                    <div class="filds">
+                                        <input type="text" id="descricao" name="descricao">
+                                        <label for="descricao">Descrição</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="form-group col-lg-10 offset-lg-1 mt-3">
                             <div class="row">
                                 <div class="col-6">
@@ -102,7 +126,7 @@
             <div class="row justify-content-center align-items-center m-0 mt-2">
                 <div class="container-form col-6 col-md-4 mb-2 p-0">
                     <div class="btn-control container-btn-view-list">
-                        <a href="running-list.html">Ver corridas</a>
+                        <a href="exercise-list.html">Ver Exercícios</a>
                     </div>
                 </div>
             </div>

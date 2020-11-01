@@ -27,9 +27,11 @@
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark">
                     <ul class="menu-option p-0">
-                        <li><a href="running.html">Corrida</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="exercise.html">Exercício</a></li>
                         <li><a href="meal.html">Refeição</a></li>
                         <li><a href="weight.html">Peso</a></li>
+                        <li><a href="plan.html">Plano</a></li>
                         <li><a href="login.html">Sair</a></li>
                     </ul>
                 </div>
@@ -44,7 +46,7 @@
                             <h5 class="text-center">Registrar refeição</h5>
                         </div>
                         <div class="col-12">
-                            <h6 class="text-center">Informe o alimento e a quantidade de calorias</h6>
+                            <h6 class="text-center">Preencha os campos abaixo 😉</h6>
                         </div>
                     </div>
                     <form action="meal-list.html" method="GET">
@@ -52,8 +54,16 @@
                             <div class="row filds-custom justify-content-center align-items-center">
                                 <div class="col-10">
                                     <div class="filds">
-                                        <input type="text" id="food" name="food">
-                                        <label for="food">Nome do alimento</label>
+                                        <input type="text" id="nomeAlimento" name="nomeAlimento">
+                                        <label for="nomeAlimento">Nome do alimento</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row filds-custom justify-content-center align-items-center">
+                                <div class="col-10">
+                                    <div class="filds">
+                                        <input type="text" id="comentario" name="comentario">
+                                        <label for="comentario">Comentário</label>
                                     </div>
                                 </div>
                             </div>
@@ -61,14 +71,14 @@
                         <div class="form-group form-group-custom col-lg-10 offset-lg-1">
                             <div class="row filds-custom justify-content-center align-items-center">
                                 <div class="col-8">
-                                    <label for="kcal">Quantidade de calorias</label>
+                                    <label for="calorias">Quantidade de calorias</label>
                                 </div>
                                 <div class="col-4 col-md-2">
                                     <div class="row">
                                         <a href="#" class="btn-control btn-more"> </a>
                                     </div>
                                     <div class="row">
-                                        <input type="text" id="kcal" name="kcal" value="0" class="field">
+                                        <input type="text" id="calorias" name="calorias" value="0" class="field">
                                     </div>
                                     <div class="row">
                                         <a href="#" class="btn-control btn-less"> </a>

@@ -28,9 +28,11 @@
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark">
                     <ul class="menu-option p-0">
-                        <li><a href="running.html">Corrida</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="exercise.html">Exercício</a></li>
                         <li><a href="meal.html">Refeição</a></li>
                         <li><a href="weight.html">Peso</a></li>
+                        <li><a href="plan.html">Plano</a></li>
                         <li><a href="login.html">Sair</a></li>
                     </ul>
                 </div>
@@ -38,99 +40,128 @@
         </div>
 
         <section class="container-fluid p-0 top-to-botton-animate">
-            <div class="row justify-content-center align-items-center m-0 mt-2 h-100">
-                <div class="container-form form-green col-10 col-md-5 col-lg-4 mb-2 p-4">
-                    <div class="form-group p-2 my-auto">
-                        <div class="row text-center">
-                            <div class="col p-0">
-                                <p>Alimento: Maçã</p>
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col p-0">
-                                <p>Quantidade de calorias: 52 Cal</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <span class="icon-list icon-meal float-right"></span>
-                            </div>
-                            <div class="col">
-                                <p>Data: 30/12/2019</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-form form-green col-10 col-md-5 col-lg-4 ml-2 mb-2 p-4">
-                    <div class="form-group p-2 my-auto">
-                        <div class="row text-center">
-                            <div class="col p-0">
-                                <p>Alimento: Maçã</p>
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col p-0">
-                                <p>Quantidade de calorias: 52 Cal</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <span class="icon-list icon-meal float-right"></span>
-                            </div>
-                            <div class="col">
-                                <p>Data: 30/12/2019</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row card-deck justify-content-center align-items-center m-0 mt-2 h-100">
             </div>
+ 
+            <div class="row card-deck cards-columns justify-content-center align-items-center m-0 mt-2 h-100">
 
-            <div class="row justify-content-center align-items-center m-0 mt-2 h-100">
-                <div class="container-form form-green col-10 col-md-5 col-lg-4 mb-2 p-4">
+                <div class="card container-form form-green col-10 col-md-6 col-lg-4 mb-2 p-4">
                     <div class="form-group p-2 my-auto">
                         <div class="row text-center">
                             <div class="col p-0">
-                                <p>Alimento: Maçã</p>
+                                <p>Alimento: <strong id="nomeAlimento">Maçã</strong></p>
                             </div>
                         </div>
                         <div class="row text-center">
                             <div class="col p-0">
-                                <p>Quantidade de calorias: 52 Cal</p>
+                                <p>Calorias: <strong id="calorias">300</strong> Cal</p>
                             </div>
                         </div>
+                        <div class="row text-center">
+                            <div class="col p-0">
+                                <p id="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam repudiandae dignissimos itaque laudantium odit sunt suscipit sed fugit. Aspernatur error distinctio totam nihil ex, a atque eius molestiae quia!</p>
+                            </div>
+                        </div>
+
                         <div class="row">
                             <div class="col">
                                 <span class="icon-list icon-meal float-right"></span>
                             </div>
                             <div class="col">
-                                <p>Data: 30/12/2019</p>
+                                <p id="dtAlimento">Data: 30/12/2019</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="container-form form-green col-10 col-md-5 col-lg-4 ml-2 mb-2 p-4">
+
+                <div class="card container-form form-green col-10 col-md-6 col-lg-4 mb-2 p-4">
                     <div class="form-group p-2 my-auto">
                         <div class="row text-center">
                             <div class="col p-0">
-                                <p>Alimento: Maçã</p>
+                                <p>Alimento: <strong id="nomeAlimento">Maçã</strong></p>
                             </div>
                         </div>
                         <div class="row text-center">
                             <div class="col p-0">
-                                <p>Quantidade de calorias: 52 Cal</p>
+                                <p>Calorias: <strong id="calorias">300</strong> Cal</p>
                             </div>
                         </div>
+                        <div class="row text-center">
+                            <div class="col p-0">
+                                <p id="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam repudiandae dignissimos itaque laudantium odit sunt suscipit sed fugit. Aspernatur error distinctio totam nihil ex, a atque eius molestiae quia!</p>
+                            </div>
+                        </div>
+
                         <div class="row">
                             <div class="col">
                                 <span class="icon-list icon-meal float-right"></span>
                             </div>
                             <div class="col">
-                                <p>Data: 30/12/2019</p>
+                                <p id="dtAlimento">Data: 30/12/2019</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="card container-form form-green col-10 col-md-6 col-lg-4 mb-2 p-4">
+                    <div class="form-group p-2 my-auto">
+                        <div class="row text-center">
+                            <div class="col p-0">
+                                <p>Alimento: <strong id="nomeAlimento">Maçã</strong></p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col p-0">
+                                <p>Calorias: <strong id="calorias">300</strong> Cal</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col p-0">
+                                <p id="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam repudiandae dignissimos itaque laudantium odit sunt suscipit sed fugit. Aspernatur error distinctio totam nihil ex, a atque eius molestiae quia!</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <span class="icon-list icon-meal float-right"></span>
+                            </div>
+                            <div class="col">
+                                <p id="dtAlimento">Data: 30/12/2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card container-form form-green col-10 col-md-6 col-lg-4 mb-2 p-4">
+                    <div class="form-group p-2 my-auto">
+                        <div class="row text-center">
+                            <div class="col p-0">
+                                <p>Alimento: <strong id="nomeAlimento">Maçã</strong></p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col p-0">
+                                <p>Calorias: <strong id="calorias">300</strong> Cal</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col p-0">
+                                <p id="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam repudiandae dignissimos itaque laudantium odit sunt suscipit sed fugit. Aspernatur error distinctio totam nihil ex, a atque eius molestiae quia!</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <span class="icon-list icon-meal float-right"></span>
+                            </div>
+                            <div class="col">
+                                <p id="dtAlimento">Data: 30/12/2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>            
         </section>
     </div>
 </body>
